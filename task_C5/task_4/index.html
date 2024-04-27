@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/style.css" />
+		<title>Module C5 task 4</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="form_box">
+				<form class="form" action="#" method="get" name="request_form">
+					<div class="form_box">
+						<input
+							class="form_input j-form_input_width"
+							type="text"
+							placeholder=" "
+						/>
+						<label class="form_label form_label_width" for=""
+							>Введите ширину картинки в диапазон от 100 до 300:</label
+						>
+						<input
+							class="form_input j-form_input_height"
+							type="text"
+							placeholder=" "
+						/>
+						<label class="form_label form_label_height" for=""
+							>Введите высоту картинки в диапазон от 100 до 300:</label
+						>
+						<p class="p_box">Одно из чисел вне диапазона от 100 до 300.</p>
+					</div>
+
+					<button class="form_button">Отправить</button>
+					<button class="form_button form_button_restart">Обновить</button>
+				</form>
+			</div>
+			<div class="img_box"></div>
+		</div>
+		<script src="./js/scripts.js"></script>
+	</body>
+</html>
